@@ -26,3 +26,9 @@ s"foo\nbar"
 
 raw"foo\nbar"
 
+val text=
+    s"""
+      | $name
+    """.stripMargin
+
+println(text)
